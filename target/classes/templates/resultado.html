@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Resultado de cotação</h1>
+
+        <p>Produto: <span th:text="${produto}"></span></p>
+        <p>Total: <span th:text="${total}"></span></p>
+        <p>Imposto: <span th:text="${imposto}"></span></p>
+        <p>Valor Final: <span th:text="${valorFinal}"></span></p>
+        <p>Status: <span th:text="${status}"></span></p>
+    </div>
+</body>
+</html>
